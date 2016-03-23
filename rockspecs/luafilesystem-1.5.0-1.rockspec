@@ -1,9 +1,9 @@
 package = "LuaFileSystem"
 
-version = "cvs-2"
+version = "1.5.0-1"
 
 source = {
-   url = "git://github.com/keplerproject/luafilesystem.git",
+   url = "http://cloud.github.com/downloads/keplerproject/luafilesystem/luafilesystem-1.5.0.tar.gz",
 }
 
 description = {
@@ -22,5 +22,6 @@ dependencies = {
 
 build = {
    type = "module",
-   modules = { lfs = "src/lfs.c" }
+   modules = { lfs = "src/lfs.c" },
+   copy_directories = { "doc", "tests" }
 }
