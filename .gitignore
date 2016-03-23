@@ -4,6 +4,7 @@ luafilesystem-1.2/
 luafilesystem-1.4.1/
 luafilesystem-1.4.2/
 keplerproject-luafilesystem-84f1af5/
+lua-filesystem-1.6.2/
 
 # Object files
 *.o
